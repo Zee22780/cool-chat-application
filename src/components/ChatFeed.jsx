@@ -3,7 +3,6 @@ import MyMessage from './MyMessage';
 import TheirMessage from './TheirMessage';
 
 
-
 const ChatFeed = (props) => {
 
   const { chats, activeChat, userName, messages } = props;
@@ -45,7 +44,6 @@ const ChatFeed = (props) => {
             <MessageForm {...props} chatId={activeChat} />
           </div>
         </div>
-
       </div>
     </div>
     );
