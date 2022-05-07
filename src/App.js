@@ -10,9 +10,9 @@ function App() {
   return (
       <ChatEngine
 			height='100vh'
-			userName='olivia'
-			userSecret='thankyou'
 			projectID='98816256-be79-4584-8848-480757fe7fcb'
+			userName='eddie'
+			userSecret='flower'
       renderChatFeed = { (chatAppProps) => <ChatFeed {...chatAppProps} />}
       onNewMessage = { () => new Audio('https://chat-engine-assets.s3.amazonaws.com/click.mp3').play()}
 		  />
